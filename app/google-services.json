@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397540385815",
+    "project_id": "arena-play-mobile",
+    "storage_bucket": "arena-play-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397540385815:android:acf3944ae81bfe198a6852",
+        "android_client_info": {
+          "package_name": "com.example.arenaplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYfGO1CTz0HLi5MMzI3tJmhbMHfXnG7oI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

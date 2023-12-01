@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ArenaPlay</string>
+    <string name="password">Senha</string>
+    <string name="email">Email</string>
+    <string name="name">Nome</string>
+    <string name="contact">Contato (whatsapp)</string>
+    <string name="login">ENTRAR</string>
+    <string name="logo">Logo Arena Play</string>
+    <string name="signup">Não tem uma conta? Criar uma conta.</string>
+    <string name="register">CRIAR CONTA</string>
+    <string name="singin">Já tem uma conta? Fazer login.</string>
+</resources>

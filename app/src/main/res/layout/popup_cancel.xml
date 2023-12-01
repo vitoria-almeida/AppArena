@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirma o cancelamento?"
+        android:textColor="@color/orange"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/buttons_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp">
+
+        <Button
+            android:id="@+id/confirm_popup"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:text="cancelar"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"/>
+
+        <Button
+            android:id="@+id/cancel_popup"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_gray"
+            android:text="fechar"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
